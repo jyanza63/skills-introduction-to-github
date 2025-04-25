@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treact - Beautiful React Templates</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #5850ec; /* Example primary color */
+        }
+
+        .logo span {
+            color: #fff;
+            background-color: #5850ec;
+            padding: 5px 8px;
+            border-radius: 5px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333; /* Example text color */
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+        }
+
+        .hero-text {
+            flex: 1;
+            padding-right: 30px;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #222; /* Example heading color */
+        }
+
+        .hero-text p {
+            color: #555; /* Example secondary text color */
+            margin-bottom: 30px;
+        }
+
+        .hero-form {
+            display: flex;
+        }
+
+        .hero-form input[type="email"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            flex-grow: 1;
+        }
+
+        .hero-form button {
+            background-color: #5850ec; /* Example primary color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .hero-image {
+            flex: 1;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .trusted-customers {
+            padding: 20px 50px;
+            text-align: left;
+        }
+
+        .trusted-customers h2 {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .customer-logos {
+            display: flex;
+            gap: 20px;
+        }
+
+        .customer-logos img {
+            height: 30px; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><span>T</span>react</div>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#">Login</a>
+            <button style="background-color: #5850ec; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Beautiful React Templates for you.</h1>
+            <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+            <div class="hero-form">
+                <input type="email" placeholder="Your E-mail Address">
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div class="hero-image"><span>women with computer</span><div>
+            <img src="assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt>
+        </div>
+    </section>
+    <section class="trusted-customers">
+        <h2>OUR TRUSTED CUSTOMERS</h2>
+        <div class="customer-logos"> <img src="__MACOSX/assets/._hero-screenshot-1.40a097b525c2f8c9808e.png">
+            <div style="display: flex; gap: 20px; align-items: center;">
+            <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Fortune" style="height: 30px;">
+            <img src="The-weather-channel-logo.svg" alt="The Weather Channel" style="height: 30px;">
+            <img src="fast-company-logo.svg" alt="Fast Company" style="height: 30px;">
+            <img src="national-geographic-logo.svg" alt="National Geographic" style="height: 30px;">
+        </div>
+    </section>
+
+    <footer>
+        </footer>
+</body>
+</html>
+<section style="padding: 40px 20px; text-align: center;">
+    <h2 style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px;">FEATURES</h2>
+    <h3 style="font-size: 2rem; color: #242424; margin-bottom: 20px;">We have Amazing <span style="color: #6415ff;">Service</span>.</h3>
+    <p style="color: #808080; line-height: 1.5; margin-bottom: 40px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">Secure</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">We strictly only deal with vendors that provide top notch security.</p>
+        </div>
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">24/7 Support</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+        </div>
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">Customizable</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+        </div>
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 17l-4 4-4-4M12 12v9"></path><path d="M20 3h-7c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h7M4 3h7c1.1 0 2 .9 2 2v6c0 1.1-.9 2-2 2H4"></path></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">Reliable</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+        </div>
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">Fast</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+        </div>
+        <div style="max-width: 200px;">
+            <div style="background-color: #f7f7f7; border-radius: 50%; width: 60px; height: 60px; display: flex; justify-content: center; align-items: center; margin: 0 auto 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49"></path></svg>
+            </div>
+            <h4 style="font-size: 1.25rem; color: #242424; margin-bottom: 5px;">Easy</h4>
+            <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+        </div>
+    </div>
+</section>
+<section style="padding: 40px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    <div style="max-width: 550px;">
+        <h2 style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px;">QUALITY WORK</h2>
+        <h3 style="font-size: 2.5rem; color: #242424; margin-bottom: 20px; line-height: 1.2;">
+            Designed & <br>Developed by <span style="color: #6415ff;">Professionals</span>.
+        </h3>
+        <p style="color: #808080; line-height: 1.7; margin-bottom: 30px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+        </p>
+        <button style="background-color: #6415ff; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer;">
+            Learn More
+        </button>
+    </div>
+    <div style="max-width: 450px;">
+        <img src="assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="women with laptop" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+    </div>
+    <div style="position: absolute; bottom: 20px; right: 20px; color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="currentColor">
+            <circle cx="10" cy="10" r="5"></circle>
+            <circle cx="30" cy="10" r="5"></circle>
+            <circle cx="50" cy="10" r="5"></circle>
+            <circle cx="70" cy="10" r="5"></circle>
+            <circle cx="10" cy="30" r="5"></circle>
+            <circle cx="30" cy="30" r="5"></circle>
+            <circle cx="50" cy="30" r="5"></circle>
+            <circle cx="70" cy="30" r="5"></circle>
+            <circle cx="10" cy="50" r="5"></circle>
+            <circle cx="30" cy="50" r="5"></circle>
+            <circle cx="50" cy="50" r="5"></circle>
+            <circle cx="70" cy="50" r="5"></circle>
+            <circle cx="10" cy="70" r="5"></circle>
+            <circle cx="30" cy="70" r="5"></circle>
+            <circle cx="50" cy="70" r="5"></circle>
+            <circle cx="70" cy="70" r="5"></circle>
+        </svg>
+    </div>
+</section>
+<section style="padding: 40px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    <div style="max-width: 500px;">
+        <h2 style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px;">STEPS</h2>
+        <h3 style="font-size: 2.5rem; color: #242424; margin-bottom: 30px; line-height: 1.2;">
+            Easy to <span style="color: #6415ff;">Get Started</span>.
+        </h3>
+        <div style="margin-bottom: 20px;">
+            <h4 style="font-size: 1.5rem; color: #808080; margin-bottom: 5px;"><span style="color: #6415ff; font-weight: bold; margin-right: 10px;">01</span> Register</h4>
+            <p style="color: #808080; line-height: 1.6;">Create an account with us using Google or Facebook.</p>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <h4 style="font-size: 1.5rem; color: #808080; margin-bottom: 5px;"><span style="color: #6415ff; font-weight: bold; margin-right: 10px;">02</span> Download</h4>
+            <p style="color: #808080; line-height: 1.6;">Browse and Download the template that you like from the marketplace.</p>
+        </div>
+        <div>
+            <h4 style="font-size: 1.5rem; color: #808080; margin-bottom: 5px;"><span style="color: #6415ff; font-weight: bold; margin-right: 10px;">03</span> Run</h4>
+            <p style="color: #808080; line-height: 1.6;">Follow the instructions to setup and customize the template to your needs.</p>
+        </div>
+    </div>
+    <div style="max-width: 500px;">
+        <img src="assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="Laptop with Landing Page" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+    </div>
+    <div style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="100" height="30" viewBox="0 0 100 30" fill="currentColor">
+            <circle cx="10" cy="20" r="5"></circle>
+            <circle cx="30" cy="20" r="5"></circle>
+            <circle cx="50" cy="20" r="5"></circle>
+            <circle cx="70" cy="20" r="5"></circle>
+            <circle cx="90" cy="20" r="5"></circle>
+        </svg>
+    </div>
+</section>
+<section style="padding: 40px 20px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;">
+    <div style="max-width: 500px;">
+        <h2 style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px;">VALUES</h2>
+        <h3 style="font-size: 2.5rem; color: #242424; margin-bottom: 30px; line-height: 1.2;">
+            We Always Abide by <span style="color: #6415ff;">Our Principles</span>.
+        </h3>
+        <p style="color: #808080; line-height: 1.7; margin-bottom: 30px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+        </p>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                <div style="background-color: #e9faef; color: #38a169; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; font-size: 1rem;">
+                    <svg xmlns="__MACOSX/assets/._fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" color="#38a169"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3zm5 0c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/></svg>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.2rem; color: #242424; margin-bottom: 2px;">Affordable</h4>
+                    <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">We promise to offer you the best rate we can - at par with the industry standard.</p>
+            
+                </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                <div style="background-color: #fde9e7; color: #e53e3e; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; font-size: 1rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" color="#e53e3e"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-5-8c0-1.66 1.34-3 3-3s3 1.34 3 3-1.34 3-3 3-3-1.34-3-3zm5 0c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z"/></svg>
+                </div>
+                <div>
+                    <h4 style="font-size: 1.2rem; color: #242424; margin-bottom: 2px;">Professionalism</h4>
+                    <p style="color: #808080; font-size: 0.9rem; line-height: 1.5;">We assure you that our templates are designed and created by professional designers.</p>
+                </div>
+            </div>
+        </div>
+        <button style="background-color: #6415ff; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; margin-top: 30px;">
+            Learn More
+        </button>
+    </div>
+    <div style="max-width: 450px;">
+        <img src="assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="Woman Drawing on Tablet" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+    </div>
+    <div style="position: absolute; top: 20px; right: 20px; color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="currentColor">
+            <circle cx="10" cy="10" r="5"></circle>
+            <circle cx="30" cy="10" r="5"></circle>
+            <circle cx="50" cy="10" r="5"></circle>
+            <circle cx="70" cy="10" r="5"></circle>
+            <circle cx="10" cy="30" r="5"></circle>
+            <circle cx="30" cy="30" r="5"></circle>
+            <circle cx="50" cy="30" r="5"></circle>
+            <circle cx="70" cy="30" r="5"></circle>
+            <circle cx="10" cy="50" r="5"></circle>
+            <circle cx="30" cy="50" r="5"></circle>
+            <circle cx="50" cy="50" r="5"></circle>
+            <circle cx="70" cy="50" r="5"></circle>
+            <circle cx="10" cy="70" r="5"></circle>
+            <circle cx="30" cy="70" r="5"></circle>
+            <circle cx="50" cy="70" r="5"></circle>
+            <circle cx="70" cy="70" r="5"></circle>
+        </svg>
+    </div>
+</section>
+<section id="pricing" style="padding: 80px 20px; background-color: #f7f7f7;">
+    <div class="container" style="max-width: 1000px; margin: 0 auto; text-align: center;">
+        <h2 class="section__tag" style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px; opacity: 0.8;">PRICING</h2>
+        <h3 class="section__title" style="font-size: 2.5rem; color: #242424; margin-bottom: 20px; line-height: 1.2;">Reasonable &amp; Flexible <span style="color: #6415ff;">Plans</span>.</h3>
+        <p class="section__para" style="color: #808080; line-height: 1.7; margin-bottom: 60px; font-size: 1rem;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+<div class="pricing__plans" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+            <div class="pricing__plan" style="background-color: white; border-radius: 10px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); text-align: center; padding: 30px; max-width: 300px;">
+                <div class="plan__header" style="border-bottom: 3px solid #20c997; padding-bottom: 20px; margin-bottom: 20px;">
+                    <h4 class="plan__title" style="font-size: 1.5rem; color: #242424; margin-bottom: 10px;">PERSONAL</h4>
+                    <div class="plan__price" style="font-size: 2.5rem; color: #242424; font-weight: bold; margin-bottom: 5px;">$17.99</div>
+                    <p class="plan__duration" style="font-size: 0.9rem; color: #808080; margin-bottom: 0;">MONTHLY</p> 
+                </div>
+                <ul class="plan__features" style="list-style: none; padding: 0; margin-bottom: 30px;">
+                    <li style="margin-bottom: 10px; color: #4a5568; font-size: 1rem;">For Individuals</li>
+                    <li style="margin-bottom: 10px; color: #4a5568; font-size: 1rem;">1 User</li>
+                    <li style="margin-bottom: 10px; color: #4a5568; font-size: 1rem;">Basic Features</li>
+                    <li style="margin-bottom: 10px; color: #4a5568; font-size: 1rem;">Limited Support</li>
+                </ul>
+                <button class="button primary" style="background-color: #6415ff; color: white; padding: 12px 24px; border: none; border-style: 
+ 
+ <button style="background-color: #a7f3d0; color: #10b981; border: none; border-radius: 8px; padding: 12px 24px; font-size: 1rem; cursor: pointer;">Choose Plan</button>
+            </div>
+        </div>
+        <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 300px; text-align: center; overflow: hidden; transform: scale(1.05); margin-top: -10px;">
+            <div style="background-color: #6415ff; padding: 20px 0; color: #fff;">
+                <h4 style="font-size: 1.5rem; margin-bottom: 5px;">BUSINESS</h4>
+                <div style="font-size: 2.5rem; font-weight: bold;">$37.99</div>
+                <div style="font-size: 0.9rem;">MONTHLY</div>
+            </div>
+            <div style="padding: 20px;">
+                <p style="color: #4a5568; margin-bottom: 15px;">For Small Businesses</p>
+                <ul style="list-style: none; padding: 0; color: #4a5568; text-align: left;">
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> 5 Users</li>
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Advanced Features</li>
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6415ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Priority Support</li>
+                </ul>
+                <button style="background-color: #6415ff; color: #fff; border: none; border-radius: 8px; padding: 12px 24px; font-size: 1rem; cursor: pointer;">Choose Plan</button>
+            </div>
+        </div>
+        <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 300px; text-align: center; overflow: hidden;">
+            <div style="background-color: #fca5a5; padding: 20px 0; color: #ef4444;">
+                <h4 style="font-size: 1.5rem; margin-bottom: 5px;">ENTERPRISE</h4>
+                <div style="font-size: 2.5rem; font-weight: bold;">$57.99</div>
+                <div style="font-size: 0.9rem; color: #4a5568;">MONTHLY</div>
+            </div>
+            <div style="padding: 20px;">
+                <p style="color: #4a5568; margin-bottom: 15px;">For Large Companies</p>
+                <ul style="list-style: none; padding: 0; color: #4a5568; text-align: left;">
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Unlimited Users</li>
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Premium Features</li>
+                    <li style="margin-bottom: 10px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Dedicated Support</li>
+                </ul>
+                <button style="background-color: #fca5a5; color: #ef4444; border: none; border-radius: 8px; padding: 12px 24px; font-size: 1rem; cursor: pointer;">Choose Plan</button>
+            </div>
+        </div>
+    </div>
+    <div style="position: absolute; bottom: 20px; left: 20px; color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="currentColor">
+            <circle cx="10" cy="10" r="5"></circle>
+            <circle cx="30" cy="10" r="5"></circle>
+            <circle cx="50" cy="10" r="5"></circle>
+            <circle cx="70" cy="10" r="5"></circle>
+            <circle cx="10" cy="30" r="5"></circle>
+            <circle cx="30" cy="30" r="5"></circle>
+            <circle cx="50" cy="30" r="5"></circle>
+            <circle cx="70" cy="30" r="5"></circle>
+            <circle cx="10" cy="50" r="5"></circle>
+            <circle cx="30" cy="50" r="5"></circle>
+            <circle cx="50" cy="50" r="5"></circle>
+            <circle cx="70" cy="50" r="5"></circle>
+            <circle cx="10" cy="70" r="5"></circle>
+            <circle cx="30" cy="70" r="5"></circle>
+            <circle cx="50" cy="70" r="5"></circle>
+            <circle cx="70" cy="70" r="5"></circle>
+        </svg>
+    </div>
+</section>
+ 
+ 
+ <section style="padding: 40px 20px; text-align: center;">
+    <h2 style="color: #6415ff; font-size: 14px; font-weight: bold; margin-bottom: 10px;">TESTIMONIALS</h2>
+    <h3 style="font-size: 2.5rem; color: #242424; margin-bottom: 20px;">Our Clients <span style="color: #6415ff;">Love Us</span>.</h3>
+    <p style="color: #808080; line-height: 1.7; margin-bottom: 40px;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.
+    </p>
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+        <div style="max-width: 500px; text-align: left;">
+            <div style="color: #ffc107; font-size: 1.2rem; margin-bottom: 10px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" color="#ffc107"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" color="#ffc107"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" color="#ffc107"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" color="#ffc107"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" color="#ffc107"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+            </div>
+            <h4 style="font-size: 1.5rem; color: #242424; margin-bottom: 10px;">Amazing User Experience</h4>
+            <p style="color: #808080; line-height: 1.7; margin-bottom: 20px;">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <img src="assets/photo-1494790108377-be9c29b29330.avif" alt="User Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
+                <div>
+                    <h6 style="font-weight: bold; color: #242424; margin-bottom: 2px;">Charlotte Hale</h6>
+                    <p style="color: #808080; font-size: 0.9rem;">CEO, ABC Company</p>
+                </div>
+            </div>
+        </div>
+        <div style="max-width: 400px;">
+            <img src="assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="Testimonial Illustration" style="width: 100%; border-radius: 10px;">
+        </div>
+    </div>
+    <div style="position: absolute; top: 20px; left: 20px; color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="currentColor">
+            <circle cx="10" cy="10" r="5"></circle>
+            <circle cx="30" cy="10" r="5"></circle>
+            <circle cx="50" cy="10" r="5"></circle>
+            <circle cx="70" cy="10" r="5"></circle>
+            <circle cx="10" cy="30" r="5"></circle>
+            <circle cx="30" cy="30" r="5"></circle>
+            <circle cx="50" cy="30" r="5"></circle>
+            <circle cx="70" cy="30" r="5"></circle>
+            <circle cx="10" cy="50" r="5"></circle>
+            <circle cx="30" cy="50" r="5"></circle>
+            <circle cx="50" cy="50" r="5"></circle>
+            <circle cx="70" cy="50" r="5"></circle>
+            <circle cx="10" cy="70" r="5"></circle>
+            <circle cx="30" cy="70" r="5"></circle>
+            <circle cx="50" cy="70" r="5"></circle>
+            <circle cx="70" cy="70" r="5"></circle>
+        </svg>
+    </div>
+    <div style="position: absolute; bottom: 20px; right: 20px; color: #6415ff; font-size: 2rem; opacity: 0.3;">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="currentColor">
+            <circle cx="10" cy="10" r="5"></circle>
+            <circle cx="30" cy="10" r="5"></circle>
+            <circle cx="50" cy="10" r="5"></circle>
+            <circle cx="10" cy="30" r="5"></circle>
+            <circle cx="30" cy="30" r="5"></circle>
+            <circle cx="10" cy="50" r="5"></circle>
+        </svg>
+    </div>
+</section>
+<section style="background-color: #6415ff; color: white; padding: 50px 20px; text-align: center;">
+    <div style="max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px;">
+        <h2 style="font-size: 2rem; margin-bottom: 0; line-height: 1.3;">Developers all over the world are <br> happily using Treact.</h2>
+        <div>
+            <button style="background-color: #f87171; color: white; border: none; border-radius: 8px; padding: 15px 30px; font-size: 1rem; cursor: pointer;">
+                Get Started
+            </button>
+        </div>
+        <div>
+            <button style="background-color: transparent; color: white; border: 1px solid white; border-radius: 8px; padding: 15px 30px; font-size: 1rem; cursor: pointer;">
+                Contact Us
+            </button>
+        </div>
+    </div>
+</section> 
+<footer style="background-color: #6415ff; color: white; padding: 40px 20px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+            <h6 style="font-weight: bold; margin-bottom: 15px;">MAIN</h6>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Blog</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">FAQs</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Support</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">About Us</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+            <h6 style="font-weight: bold; margin-bottom: 15px;">PRODUCT</h6>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Log In</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Personal</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Business</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Team</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+            <h6 style="font-weight: bold; margin-bottom: 15px;">PRESS</h6>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Logos</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Events</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Stories</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Office</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+            <h6 style="font-weight: bold; margin-bottom: 15px;">TEAM</h6>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Career</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Founders</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Culture</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Onboarding</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1 1 200px; margin-bottom: 30px;">
+            <h6 style="font-weight: bold; margin-bottom: 15px;">LEGAL</h6>
+            <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">GDPR</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Privacy Policy</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Terms of Service</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="color: white; text-decoration: none;">Disclaimer</a></li>
+            </ul>
+        </div>
+    </div>
+    <div style="max-width: 1200px; margin: 0 auto; padding-top: 30px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+            <img src="assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="Treact Inc." style="height: 24px; margin-right: 10px;">
+            <span style="font-weight: bold;">Treact Inc.</span>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <span style="font-size: 0.9rem;">© 2018 Treact Inc. All Rights Reserved.</span>
+        </div>
+        <div style="display: flex; gap: 15px; margin-bottom: 20px;">
+            <a href="#" style="color: white; text-decoration: none; border: 1px solid white; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; font-size: 1rem;"><svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M12 2.163c3.204 0 3.622.012 4.612.058a8.38 8.38 0 0 1 3.83 1.13 8.38 8.38 0 0 1 2.27 2.27 8.38 8.38 0 0 1 1.13 3.83c.046.99.058 1.408.058 4.612s-.012 3.622-.058 4.612a8.38 8.38 0 0 1-1.13 3.83 8.38 8.38 0 0 1-2.27 2.27 8.38 8.38 0 0 1-3.83 1.13c-.99.046-1.408.058-4.612.058s-3.622-.012-4.612-.058a8.38 8.38 0 0 1-3.83-1.13 8.38 8.38 0 0 1-2.27-2.27 8.38 8.38 0 0 1-1.13-3.83c-.046-.99-.058-1.408-.058-4.612s.012-3.622.058-4.612a8.38 8.38 0 0 1 1.13-3.83 8.38 8.38 0 0 1 2.27-2.27 8.38 8.38 0 0 1 3.83-1.13c.99-.046 1.408-.058 4.612-.058zm0 2.162a6.345 6.345 0 0 0-4.56 1.46A6.345 6.345 0 0 0 1.84 12a6.345 6.345 0 0 0 1.46 4.56A6.345 6.345 0 0 0 12 21.84a6.345 6.345 0 0 0 4.56-1.46A6.345 6.345 0 0 0 22.16 12a6.345 6.345 0 0 0-1.46-4.56A6.345 6.345 0 0 0 12 2.162zm6.405 7.5a1.79 1.79 0 0 0-1.78-1.79h-.01a1.79 1.79 0 0 0-1.79 1.79v.01a1.79 1.79 0 0 0 1.79 1.78h.01a1.79 1.79 0 0 0 1.78-1.79v-.01zM12 14.41a3.21 3.21 0 0 1-3.2-3.21v-.01a3.21 3.21 0 0 1 3.21-3.2 3.21 3.21 0 0 1 3.2 3.21v.01a3.21 3.21 0 0 1-3.21 3.2z"/></svg></a>
+            <a href="#" style="color: white; text-decoration: none; border: 1px solid white; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; font-size: 1rem;"><svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path d="M23.953 4.57a9.995 9.995 0 0 1-2.825.775 4.959 4.959 0 0 0 2.163-2.723c-.951.564-2.005.978-3.137 1.202a4.935 4.935 0 0 0-8.399 4.414c-3.259-.164-6.872-1.723-9.022-4.09a4.94 4.94 0 0 0 1.622 2.654c-.807-.026-1.566-.248-2.228-.616a4.927 4.927 0 0 0 4.001 3.417 4.937 4.937 0 0 1-2.229.089 4.978 4.978 0 0 0 4.606 3.458c-2.021 1.584-4.562 2.524-7.14 2.524-.472 0-.942-.028-1.415-.089a9.912 9.912 0 0 0 18.119-12.718z"/></svg></a>
+            <a href="#" style="color: white; text-decoration: none; border: 1px solid white; border-radius: 50%; width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; font-size: 1rem;"><svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;"><path fill-rule="evenodd" d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm4.5 6.866c-.676.013-1.352.02-2.028.02-3.994 0-6.763 2.765-6.763 6.763 0 2.015.825 3.804 2.157 5.07a7.01 7.01 0 0 1-2.104-.613v-4.667h-2.34v-2.293h2.34v-1.457c0-2.263 1.38-3.496 3.4-3.496 1.013 0 1.945.075 2.214.108v2.551h-1.527c-1.135 0-1.354.538-1.354 1.324v1.73h2.695l-.351 2.293h-2.344v4.667c1.264.173 2.46.078 3.563-.617 1.264-1.303 2.06-3.03 2.06-5.07 0-3.998-2.77-6.767-6.767-6.767z" clip-rule="evenodd"/></svg></a>
+        </div>
+    </div>
+</footer>              
+
+
+
+
+
